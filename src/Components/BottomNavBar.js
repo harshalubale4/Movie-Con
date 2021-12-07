@@ -1,24 +1,25 @@
 import React from 'react'
 import "./CSS Files/BottomNavBar.css"
+import WhatshotIcon from '@mui/icons-material/Whatshot';
+import MovieCreationIcon from '@mui/icons-material/MovieCreation';
+import TvIcon from '@mui/icons-material/Tv';
+import SearchIcon from '@mui/icons-material/Search';
 
 const BottomNavBar = () => {
     return (
         <div className="buttonContainer">
             <div className="borderContainer">
                 <button className="btn-light myButton">
-                    Trending
+                    Trending <WhatshotIcon />
                 </button>
                 <button className="btn-primary myButton">
-                    Movies
-                    <i class="fa-solid fa-fire-flame-curved"></i>
+                    Movies<MovieCreationIcon />
                 </button>
                 <button className="btn-secondary myButton">
-                    Tv Shows
-                    <i class="fa-solid fa-fire-flame-curved"></i>
-                    <i class="fas fa-thumbs-up fa-2x"></i>
+                    Tv Shows<TvIcon />
                 </button>
                 <button className="btn-danger myButton">
-                    Search
+                    Search<SearchIcon />
                 </button>
             </div>
         </div>
