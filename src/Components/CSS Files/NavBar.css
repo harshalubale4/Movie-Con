@@ -1,9 +1,9 @@
 .navBar {
-    padding: 20px;
+    padding: 15px;
     padding-bottom: 6px;
     text-decoration: none;
     cursor: pointer;
-    opacity: 30%;
+    opacity: 25%;
     background-color: rgb(5, 5, 5);
     transition: 0.5s;
 }
@@ -16,6 +16,12 @@
     color: rgb(255, 255, 255);
     font-weight:900;
     font-size: 30px;
+    transition: 0.2s;
+    letter-spacing: 0.13rem;
+}
+#navBarBrand:hover{
+    color: gray;
+    transform: translateY(-3px);
 }
 .navLinks{
     color: white;
