@@ -1,7 +1,10 @@
 import React from 'react'
 import "./CSS Files/Carousel.css"
+import MovieInfo from "./Carousel Components/MovieInfo.js"
+import CarouselInner from './Carousel Components/CarouselInner'
 
 const Carousel = () => {
+
     return (
         <>
             <div id="wholePage">
@@ -15,28 +18,13 @@ const Carousel = () => {
                                     <p className="caption">One Man's Probability Of Death...Is Another Man's Possibility For A Life</p>
                                 </div>
                             </div>
-                            <div class="carousel-item movieContainer">
-                                <img src="Images/interstellar.jpg" class="d-block w-100" alt="..." />
-                                <div class="carousel-caption d-none d-md-block mb-5 captionContainer">
-                                    <h5 className="captionHeading ">Interstellar</h5>
-                                    <p className="caption">Murphy’s Law Doesn’t Mean That Something Bad Will Happen. It Means That Whatever Can Happen Will
-                                        Happen.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item movieContainer">
-                                <img src="Images/500 days of Summer.jpg" class="d-block w-100" alt="..." />
-                                <div class="carousel-caption d-none d-md-block mb-5 captionContainer">
-                                    <h5 className="captionHeading ">500 Days Of Summer</h5>
-                                    <p className="caption">You know what Sucks? Realising that everything you believe in, is incomplete and utter bullshit.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item movieContainer">
-                                <img src="Images/thorRagnarok.jpg" class="d-block w-100" alt="..." />
-                                <div class="carousel-caption d-none d-md-block mb-5 captionContainer">
-                                    <h5 className="captionHeading ">Thor Ragnarok</h5>
-                                    <p className="caption">We're Not Doing 'Get Help'</p>
-                                </div>
-                            </div>
+                            {
+                                MovieInfo.map((elem) => {
+                                    return (
+                                        <CarouselInner title={elem.title} imageSrc={elem.imageSrc} caption={elem.caption} />
+                                    )
+                                })
+                            }
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
