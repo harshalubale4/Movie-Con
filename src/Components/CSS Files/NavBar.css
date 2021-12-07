@@ -1,3 +1,34 @@
-body {
+.navBar {
+    padding: 20px;
+    padding-bottom: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 30%;
+    background-color: rgb(5, 5, 5);
+    transition: 0.5s;
+}
+.navBar:hover{
+    opacity: 100%;
+    color: red;
+}
+
+#navBarBrand{
+    color: rgb(255, 255, 255);
+    font-weight:900;
+    font-size: 30px;
+}
+.navLinks{
+    color: white;
+    letter-spacing: 0.1rem;
+    font-size: 20px;
+    font-weight: 100;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.navLinks:hover{
+    transform: translateY(-3px);
+    color: gray
+}
+body{
     text-decoration: none;
 }

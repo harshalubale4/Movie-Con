@@ -1,7 +1,7 @@
 import React from 'react'
 import "./CSS Files/BottomNavBar.css"
 import WhatshotIcon from '@mui/icons-material/Whatshot';
-import MovieCreationIcon from '@mui/icons-material/MovieCreation';
+import LocalMoviesIcon from '@mui/icons-material/LocalMovies';
 import TvIcon from '@mui/icons-material/Tv';
 import SearchIcon from '@mui/icons-material/Search';
 
@@ -9,17 +9,17 @@ const BottomNavBar = () => {
     return (
         <div className="buttonContainer">
             <div className="borderContainer">
-                <button className="btn-light myButton">
+                <button className="myButton">
                     Trending <WhatshotIcon />
                 </button>
-                <button className="btn-primary myButton">
-                    Movies<MovieCreationIcon />
+                <button className="myButton ">
+                    Movies <LocalMoviesIcon />
                 </button>
-                <button className="btn-secondary myButton">
-                    Tv Shows<TvIcon />
+                <button className="myButton">
+                    Tv Shows <TvIcon />
                 </button>
-                <button className="btn-danger myButton">
-                    Search<SearchIcon />
+                <button className="myButton">
+                    Search <SearchIcon />
                 </button>
             </div>
         </div>
