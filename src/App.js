@@ -9,6 +9,7 @@ import Series from './Components/Series'
 import Search from './Components/Search'
 import BugBusters from './Components/BugBusters'
 import Mentors from './Components/Mentors'
+import "./Components/CSS Files/App.css"
 
 const App = () => {
   return (

@@ -12,11 +12,23 @@ const Card = ({
 }) => {
     return (
         <>
-            <h1 className="cardBody text-center">
+            <div className="cardContainer">
+                <img src={poster ? `${img_300}/${poster}` : unavailable} alt="title" className="img-fluid" />
+                <div className="text-center my-2 movieHeader">
+                    {title}
+                </div>
+                <div className="textContainer">
+                    <span>{media_type}</span>
+                    <span>{vote_average}</span>
+                    <span>{date}</span>
+                </div>
+            </div>
+
+            {/* <h1 className="cardBody text-center">
                 {title}
                 {date}
             </h1>
-            <img src={poster ? `${img_300}/${poster}` : unavailable} alt="title" />
+            <img src={poster ? `${img_300}/${poster}` : unavailable} alt="title" /> */}
         </>
     )
 }

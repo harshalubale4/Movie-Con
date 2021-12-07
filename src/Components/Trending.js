@@ -10,7 +10,6 @@ const Trending = () => {
         try {
             const axios = require('axios');
             const { data } = await axios.get(`https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.REACT_APP_API_KEY}`)
-            console.log(data)
             setMovieData(data.results)
         } catch (e) {
             console.log("We ran into a Problem")
@@ -25,8 +24,7 @@ const Trending = () => {
             <h1 className="text-center header">
                 Trending
             </h1>
-            <div className="container">
-                <Card />
+            <div className="container trendingContainer">
                 {
                     movieData && movieData.map((obj) =>
                         <Card

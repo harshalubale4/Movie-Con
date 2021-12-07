@@ -1,3 +1,43 @@
 .cardBody{
     color: white;
 }
+
+
+.cardContainer{
+    height: 73vh;
+    width: 40vh;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    margin: 15px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cardContainer:hover{
+    background-color: white;
+    border: 5px solid rgb(117, 117, 117);
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.poster{
+    border: 5px solid black;
+}
+
+.movieHeader{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}

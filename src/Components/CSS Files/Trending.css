@@ -1,5 +1,8 @@
-.header{
-    margin-top:90px;
-    letter-spacing: 0.2rem;
-    color: white;
+
+.trendingContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
 }
