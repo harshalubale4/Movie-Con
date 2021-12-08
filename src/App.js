@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import BottomNavBar from './Components/BottomNavBar'
 import Carousel from './Components/Carousel'
 import NavBar from './Components/NavBar'

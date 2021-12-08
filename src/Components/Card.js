@@ -14,22 +14,16 @@ const Card = ({
     return (
         <>
             <div className="cardContainer">
-                <img src={poster ? `${img_300}/${poster}` : unavailable} alt="title" className="img-fluid" />
+                <img src={poster ? `${img_300}/${poster}` : unavailable} alt="title" className="img-fluid rounded-3" />
                 <div className="text-center my-2 movieHeader">
                     {title}
                 </div>
                 <div className="textContainer">
-                    <span>{media_type}</span>
+                    <span>{media_type.toUpperCase()}</span>
                     <span>{vote_average}</span>
                     <span>{newDate}</span>
                 </div>
             </div>
-
-            {/* <h1 className="cardBody text-center">
-                {title}
-                {date}
-            </h1>
-            <img src={poster ? `${img_300}/${poster}` : unavailable} alt="title" /> */}
         </>
     )
 }

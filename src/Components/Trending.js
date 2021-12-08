@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import { useState } from 'react'
 import "./CSS Files/Trending.css"
 import CustomPagination from "./CustomPagination"
+import WhatshotIcon from '@mui/icons-material/Whatshot';
 
 const Trending = () => {
     const [movieData, setMovieData] = useState([])
@@ -20,12 +21,13 @@ const Trending = () => {
     }
     useEffect(() => {
         fetchTrendingMedia();
+        // eslint-disable-next-line
     }, [page])
     return (
         <>
             <div className="headerContainer text-center">
                 <h1 className="text-center header">
-                    Trending
+                    Trending <WhatshotIcon sx={{ fontSize: 40 }} />
                 </h1>
             </div>
 

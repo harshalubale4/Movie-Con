@@ -7,6 +7,7 @@ import PeopleIcon from '@mui/icons-material/People';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import ListIcon from '@mui/icons-material/List';
 
 const NavBar = () => {
     const [value, setValue] = useState(0);
@@ -29,7 +30,11 @@ const NavBar = () => {
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                         aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <ListIcon style={{
+                            color: "white",
+                            backgroundColor: "black",
+                            fontSize: "2rem"
+                        }} />
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <div className="navbar-nav">
