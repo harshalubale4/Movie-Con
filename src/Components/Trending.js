@@ -3,13 +3,15 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import "./CSS Files/Trending.css"
+import CustomPagination from "./CustomPagination"
 
 const Trending = () => {
     const [movieData, setMovieData] = useState([])
+    const [page, setPage] = useState(1)
     const fetchTrendingMedia = async () => {
         try {
             const axios = require('axios');
-            const { data } = await axios.get(`https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.REACT_APP_API_KEY}`)
+            const { data } = await axios.get(`https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.REACT_APP_API_KEY}&page=${page}`)
             setMovieData(data.results)
         } catch (e) {
             console.log("We ran into a Problem")
@@ -18,12 +20,15 @@ const Trending = () => {
     }
     useEffect(() => {
         fetchTrendingMedia();
-    }, [])
+    }, [page])
     return (
         <>
-            <h1 className="text-center header">
-                Trending
-            </h1>
+            <div className="headerContainer text-center">
+                <h1 className="text-center header">
+                    Trending
+                </h1>
+            </div>
+
             <div className="container trendingContainer">
                 {
                     movieData && movieData.map((obj) =>
@@ -38,9 +43,8 @@ const Trending = () => {
                         />
                     )
                 }
+                <CustomPagination setPage={setPage} />
             </div>
-
-
         </>
     )
 }

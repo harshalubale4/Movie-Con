@@ -10,6 +10,7 @@ const Card = ({
     media_type,
     vote_average
 }) => {
+    let newDate = `${date[8]}${date[9]}-${date[5]}${date[6]}-${date[0]}${date[1]}${date[2]}${date[3]}`
     return (
         <>
             <div className="cardContainer">
@@ -20,7 +21,7 @@ const Card = ({
                 <div className="textContainer">
                     <span>{media_type}</span>
                     <span>{vote_average}</span>
-                    <span>{date}</span>
+                    <span>{newDate}</span>
                 </div>
             </div>
 
