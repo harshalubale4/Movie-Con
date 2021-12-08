@@ -6,13 +6,13 @@ import CustomPagination from './CustomPagination';
 import useGenre from "../hooks/useGenre"
 import TvIcon from '@mui/icons-material/Tv';
 import Genres from './Genres';
-import "./CSS Files/Movies.css";
+import "./CSS Files/Movies.css"
 
 
 const Series = () => {
     const [page, setPage] = useState(1);
     const [content, setContent] = useState([]);
-    const [numberOfPages, setNumberOfPages] = useState(0)
+    const [numberOfPages, setNumberOfPages] = useState()
     const [selectedGenres, setSelectedGenres] = useState([])
     const [genres, setGenres] = useState([])
     const genreforURL = useGenre(selectedGenres);
@@ -29,6 +29,7 @@ const Series = () => {
         }
     }
     useEffect(() => {
+        window.scroll(0, 0);
         fetchDiscoverTv();
     }, [page, genreforURL])
     return (
