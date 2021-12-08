@@ -1,8 +1,45 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import SearchIcon from '@mui/icons-material/Search';
 import "./CSS Files/Search.css"
+import "./CSS Files/Movies.css"
+import Card from "./Card"
+import axios from 'axios';
+import CustomPagination from './CustomPagination';
 
 const Search = () => {
+    const [searchText, setSearchText] = useState("")
+    const [content, setContent] = useState([])
+    const [numberOfPages, setNumberOfPages] = useState()
+    const [page, setPage] = useState(1)
+
+    const fetchSearch = async () => {
+        try {
+            const { data } = await axios.get(
+                `https://api.themoviedb.org/3/search/multi?api_key=${process.env.REACT_APP_API_KEY
+                }&language=en-US&query=${searchText}&page=${page}&include_adult=false`
+            );
+            setContent(data.results);
+            setNumberOfPages(data.total_pages);
+            // console.log(data);
+        } catch (e) {
+            console.log("We ran into Problem")
+            console.log(e);
+
+        }
+    }
+
+    let inputFieldOfSearch = document.querySelector("#searchBox");
+    inputFieldOfSearch.addEventListener("keyup", (e) => {
+        if (e.keyCode === 13) {
+            document.querySelector("#searchButton").click();
+        }
+    })
+
+    useEffect(() => {
+        window.scroll(0, 0);
+        fetchSearch();
+        // eslint-disable-next-line
+    }, [page])
     return (
         <>
             <div className="searchHeaderContainer text-center">
@@ -10,13 +47,46 @@ const Search = () => {
                     search <SearchIcon sx={{ fontSize: 40 }} />
                 </h1>
             </div>
+
             <div className="searchInputContainer">
-                <input type="text" className="inputField mx-2" placeholder="Search" />
-                <SearchIcon style={{
-                    fontSize: "2.5rem",
-                    color: "white",
-                    backgroundColor: "black"
-                }} />
+                <input
+                    type="text"
+                    className="inputField mx-2"
+                    id="searchBox"
+                    placeholder="Movie/Series Name"
+                    onChange={(e) => setSearchText(e.target.value)}
+                />
+                <button className="btn" id="searchButton" onClick={fetchSearch}>
+                    Search <SearchIcon
+                        style={{
+                            fontSize: "140%",
+                            color: "white"
+                        }}
+                    />
+                </button>
+            </div>
+
+            <div className="container moviesContainer">
+                {
+                    content && content.map((obj) =>
+                        <Card
+                            key={obj.id}
+                            id={obj.id}
+                            poster={obj.poster_path}
+                            title={obj.title || obj.name}
+                            date={obj.first_air_date || obj.release_date}
+                            media_type={obj.media_type}
+                            vote_average={obj.vote_average}
+                        />
+                    )
+                }
+                {
+                    searchText && !content && (<h1>No Media Found</h1>)
+                }
+                {
+                    numberOfPages > 1 && (
+                        <CustomPagination setPage={setPage} numberOfPages={numberOfPages} />)
+                }
             </div>
         </>
     )
