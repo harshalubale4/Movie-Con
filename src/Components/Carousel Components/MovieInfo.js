@@ -10,6 +10,11 @@ const MovieInfo = [
         caption: "Dost fail ho jaye toh dukh hota hai … Lekin dost first aa jaye toh zyaada dukh hota hai"
     },
     {
+        title: "The Theory Of Everything",
+        imageSrc: "Images/theoryOfEverything.jpg",
+        caption: `What do Cosmologist Worship? ....A Single Unifying Equation That Explains Everything In The Universe `
+    },
+    {
         title: "Parasite",
         imageSrc: "Images/parasite.jpg",
         caption: "You know what kind of plan never fails? No plan. No plan at all. You know why? Because life cannot be planned."
