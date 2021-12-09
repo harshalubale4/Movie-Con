@@ -27,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        opacity: "100%",
     },
     paper: {
         width: "90%",
@@ -36,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: "20px",
         color: "white",
         padding: theme.spacing(1, 1, 3),
+        opacity: "100"
     },
 }));
 

@@ -7,21 +7,25 @@
     position: fixed;
     bottom: 0;
     z-index: 100;
-    height: 10%;
-    opacity: 20%;
+   
+    
 }
-.buttonContainer:hover{
-    opacity: 100%;
-}
+
 .borderContainer{
     display: flex;
+    opacity: 15%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 2rem;
+    padding-bottom: 0.4rem;
     border-radius: 2rem;
-    width: 55%;
 }
+
+.borderContainer:hover{
+    opacity: 100%;
+}
+
 .myButton{
     background-color: #fdfdfd;;
     color: #000000;

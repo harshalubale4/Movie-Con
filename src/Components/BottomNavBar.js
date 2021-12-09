@@ -30,19 +30,19 @@ const BottomNavBar = () => {
     return (
         <div className="buttonContainer">
             <div className="borderContainer">
-                <button className="myButton" onClick={() => { setValue(5) }}>
+                <button className="myButton mx-lg-2 mx-md-1" onClick={() => { setValue(5) }}>
                     Home <HomeIcon />
                 </button>
-                <button className="myButton" onClick={() => { setValue(1) }}>
+                <button className="myButton mx-lg-2 mx-md-1" onClick={() => { setValue(1) }}>
                     Trending <WhatshotIcon />
                 </button>
-                <button className="myButton " onClick={() => { setValue(2) }}>
+                <button className="myButton mx-lg-2 mx-md-1 " onClick={() => { setValue(2) }}>
                     Movies <LocalMoviesIcon />
                 </button>
-                <button className="myButton" onClick={() => { setValue(3) }}>
+                <button className="myButton mx-lg-2 mx-md-1" onClick={() => { setValue(3) }}>
                     Tv Shows <TvIcon />
                 </button>
-                <button className="myButton" onClick={() => { setValue(4) }}>
+                <button className="myButton mx-lg-2 mx-md-1" onClick={() => { setValue(4) }}>
                     Search <SearchIcon />
                 </button>
             </div>
