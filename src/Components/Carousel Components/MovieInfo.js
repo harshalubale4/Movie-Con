@@ -10,6 +10,11 @@ const MovieInfo = [
         caption: "Dost fail ho jaye toh dukh hota hai … Lekin dost first aa jaye toh zyaada dukh hota hai"
     },
     {
+        title: "Parasite",
+        imageSrc: "Images/parasite.jpg",
+        caption: "You know what kind of plan never fails? No plan. No plan at all. You know why? Because life cannot be planned."
+    },
+    {
         title: "The Big Bang Theory",
         imageSrc: "Images/bigBang3.jpg",
         caption: "I'm Not Crazy. My Mother Had Me Tested."
@@ -38,11 +43,6 @@ const MovieInfo = [
         title: "Orphan",
         imageSrc: "Images/orphan2.jpg",
         caption: "I have a special surprise for you, Mommy!"
-    },
-    {
-        title: "Parasite",
-        imageSrc: "Images/parasite.jpg",
-        caption: "You know what kind of plan never fails? No plan. No plan at all. You know why? Because life cannot be planned."
     },
     {
         title: "The Social Network",

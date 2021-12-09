@@ -1,12 +1,10 @@
 import * as React from 'react';
 import Backdrop from '@mui/material/Backdrop';
-import Box from '@mui/material/Box';
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import { useEffect, useState } from "react";
 import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 import axios from 'axios';
 import {
     img_500,
@@ -17,29 +15,30 @@ import "./CSS Files/ContentModal.css"
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import ModalCarousel from "./ModalCarousel.js"
 import { styled } from '@mui/system';
-import { purple } from '@material-ui/core/colors';
-
+import "./CSS Files/Card.css"
 
 import Stack from '@mui/material/Stack';
+import { Box } from '@mui/material';
 
 const useStyles = makeStyles((theme) => ({
     modal: {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        opacity: "100%",
     },
     paper: {
         width: "90%",
-        height: "90%",
+        height: "80%",
         backgroundColor: "black",
         border: "4px solid white",
         borderRadius: "20px",
         color: "white",
+        boxShadow: theme.shadows[5],
         padding: theme.spacing(1, 1, 3),
         opacity: "100"
     },
 }));
+
 
 export default function ContentModal({ children, media_type, id }) {
     const classes = useStyles();
@@ -48,8 +47,6 @@ export default function ContentModal({ children, media_type, id }) {
     const handleClose = () => setOpen(false);
     const [content, setContent] = useState();
     const [video, setVideo] = useState();
-
-
 
     const fetchData = async () => {
         const { data } = await axios.get(
@@ -106,9 +103,9 @@ export default function ContentModal({ children, media_type, id }) {
                 open={open}
                 onClose={handleClose}
                 closeAfterTransition
-                BackdropComponent={Backdrop}
+                // BackdropComponent={Backdrop}
                 BackdropProps={{
-                    timeout: 500,
+                    timeout: 500
                 }}
             >
 
@@ -144,8 +141,6 @@ export default function ContentModal({ children, media_type, id }) {
                                             "-----"
                                         ).substring(0, 4)}
                                         )
-
-
                                     </div>
                                     {content.tagline && (
                                         <i className="tagLine">{content.tagline}</i>

@@ -7,13 +7,11 @@
     position: fixed;
     bottom: 0;
     z-index: 100;
-   
-    
 }
 
 .borderContainer{
     display: flex;
-    opacity: 15%;
+    opacity: 20%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;

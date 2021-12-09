@@ -38,8 +38,8 @@ const NavBar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <div className="navbar-nav">
-                            <span className="navLinks mx-3" onClick={() => { setValue(2) }}><AdbIcon /> Bug Busters</span>
-                            <span className="navLinks mx-3" onClick={() => { setValue(3) }}><PeopleIcon /> Mentors</span>
+                            {/* <span className="navLinks mx-3" onClick={() => { setValue(2) }}><AdbIcon /> Bug Busters</span>
+                            <span className="navLinks mx-3" onClick={() => { setValue(3) }}><PeopleIcon /> Mentors</span> */}
                             <a className="navLinks mx-3" href="https://www.communityofcoders.in/"><LaptopIcon /> COC VJTI</a>
                         </div>
                     </div>
