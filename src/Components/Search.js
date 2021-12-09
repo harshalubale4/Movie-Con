@@ -28,13 +28,6 @@ const Search = () => {
         }
     }
 
-    let inputFieldOfSearch = document.querySelector("#searchBox");
-    inputFieldOfSearch.addEventListener("keyup", (e) => {
-        if (e.keyCode === 13) {
-            document.querySelector("#searchButton").click();
-        }
-    })
-
     useEffect(() => {
         window.scroll(0, 0);
         fetchSearch();

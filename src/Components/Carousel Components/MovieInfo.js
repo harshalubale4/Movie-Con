@@ -19,6 +19,11 @@ const MovieInfo = [
         imageSrc: "Images/thorRagnarok.jpg",
         caption: "We're Not Doing 'Get Help'"
     },
+    {
+        title: "The Big Bang Theory",
+        imageSrc: "Images/bigBang3.jpg",
+        caption: "I'm Not Crazy. My Mother Had Me Tested."
+    },
 ];
 
 export default MovieInfo;

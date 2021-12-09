@@ -7,6 +7,7 @@ import useGenre from "../hooks/useGenre"
 import "./CSS Files/Movies.css"
 import LocalMoviesIcon from '@mui/icons-material/LocalMovies';
 import Genres from './Genres';
+import { Modal } from '@material-ui/core';
 
 
 
@@ -68,6 +69,7 @@ const Movies = () => {
                         <CustomPagination setPage={setPage} numberOfPages={numberOfPages} />)
                 }
             </div>
+            <Modal />
         </>
     )
 }
