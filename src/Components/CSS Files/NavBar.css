@@ -3,13 +3,13 @@
     padding-bottom: 6px;
     text-decoration: none;
     cursor: pointer;
-    opacity: 20%;
+    opacity: 0.2;
     background-color: rgb(0, 0, 0);
     color: white;
     transition: 0.5s;
 }
 .navBar:hover{
-    opacity: 100%;
+    opacity: 1;
 }
 
 #navBarBrand{
