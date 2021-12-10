@@ -11,7 +11,7 @@
 
 .borderContainer{
     display: flex;
-    /* opacity: 20%; */
+    opacity: 0.2;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -20,9 +20,9 @@
     border-radius: 2rem;
 }
 
-/* .borderContainer:hover{
-    opacity: 100%;
-} */
+.borderContainer:hover{
+    opacity: 1;
+}
 
 .myButton{
     background-color: #fdfdfd;;
