@@ -35,13 +35,13 @@ It is a Website that helps a user to Review different types of Movies across the
 
 ## 📷Snapshots
 Home Page
-![Home Page]()
+![Home Page](https://raw.githubusercontent.com/harshalubale4/Movie-Con/master/public/Images/Snapshots/Home.png?token=AUHZXOLQLN6PQYUIJCUTUG3BWW62Q)
 Search
-![Search Page]()
+![Search Page](https://raw.githubusercontent.com/harshalubale4/Movie-Con/master/public/Images/Snapshots/Search.png?token=AUHZXOJDLW7NAQCEZCZ7H2TBWW7AW)
 Trending
-![Trending Page]()
-About
-![]()
+![Trending Page](https://raw.githubusercontent.com/harshalubale4/Movie-Con/master/public/Images/Snapshots/Trending.png?token=AUHZXOJ3ERNS56ZGXRXHCALBWW67M)
+About Movie
+![About Movie](https://raw.githubusercontent.com/harshalubale4/Movie-Con/master/public/Images/Snapshots/MovieINfo.png?token=AUHZXOOLT5Z3DHVBPNRSVH3BWW636)
 
 ## Team Bug Busters
 
