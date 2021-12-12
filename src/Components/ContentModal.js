@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Backdrop from '@mui/material/Backdrop';
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
@@ -16,9 +15,6 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import ModalCarousel from "./ModalCarousel.js"
 import { styled } from '@mui/system';
 import "./CSS Files/Card.css"
-
-import Stack from '@mui/material/Stack';
-import { Box } from '@mui/material';
 
 const useStyles = makeStyles((theme) => ({
     modal: {

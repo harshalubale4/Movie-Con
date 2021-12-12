@@ -16,7 +16,7 @@ const Gallery = ({ id, media_type }) => {
                 src={c.profile_path ? `${img_300}/${c.profile_path}` : noPicture}
                 alt={c?.name}
                 onDragStart={handleDragStart}
-                className="carouselItem__img"
+                className="carouselItemImage"
             />
             <b className="carouselItem__txt text-center">{c?.name}</b>
         </div>
