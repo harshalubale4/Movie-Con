@@ -2,7 +2,7 @@
 
 # _Movie Con_
 
-It is a Website that helps a user to Review Movies of different Genres across the Web and also helps get to know about some Trending Movies and Tv Shows.
+It is a Website that helps a user to Review Movies of different Genres across the Web and also helps them get to know about some Current Trending Movies and Tv Shows.
 
 ## Live Preview
 [🎞️Movie Con](https://movieconvjti.netlify.app/)
