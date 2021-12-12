@@ -2,7 +2,7 @@
 
 # _Movie Con_
 
-It is a Website that helps a user to Review different types of Movies across the Web and also helps get to know about some Trending Movies and Tv Shows.
+It is a Website that helps a user to Review Movies of different Genres across the Web and also helps get to know about some Trending Movies and Tv Shows.
 
 ## Live Preview
 [🎞️Movie Con](https://movieconvjti.netlify.app/)
@@ -34,14 +34,18 @@ It is a Website that helps a user to Review different types of Movies across the
 - [Node Js](https://nodejs.org/en/)
 
 ## 📷Snapshots
-Home Page
-![Home Page](https://raw.githubusercontent.com/harshalubale4/Movie-Con/master/public/Images/Snapshots/Home.png?token=AUHZXOLQLN6PQYUIJCUTUG3BWW62Q)
-Search
-![Search Page](https://raw.githubusercontent.com/harshalubale4/Movie-Con/master/public/Images/Snapshots/Search.png?token=AUHZXOJDLW7NAQCEZCZ7H2TBWW7AW)
-Trending
-![Trending Page](https://raw.githubusercontent.com/harshalubale4/Movie-Con/master/public/Images/Snapshots/Trending.png?token=AUHZXOJ3ERNS56ZGXRXHCALBWW67M)
-About Movie
-![About Movie](https://raw.githubusercontent.com/harshalubale4/Movie-Con/master/public/Images/Snapshots/MovieINfo.png?token=AUHZXOOLT5Z3DHVBPNRSVH3BWW636)
+
+### Home Page
+<img src="/public/Images/Snapshots/Home.png" />
+
+### Search
+<img src="/public/Images/Snapshots/Search.png" />
+
+### Trending
+<img src="/public/Images/Snapshots/Trending.png" />
+
+### About Movie
+<img src="/public/Images/Snapshots/MovieINfo.png" />
 
 ## Team Bug Busters
 
