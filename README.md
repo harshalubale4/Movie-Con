@@ -31,30 +31,30 @@ It is a Website that helps a user to Review Movies of different Genres across th
 
 
 ## 💻Tech Stack
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [Bootstrap](https://getbootstrap.com/)
-- [Material UI](https://mui.com/)
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [React](https://reactjs.org/)
-- [Node Js](https://nodejs.org/en/)
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTMl" width="31px" height="31px"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
+<a href="https://getbootstrap.com/" title="Bootstrap"><img src="https://github.com/get-icon/geticon/raw/master/icons/bootstrap.svg" alt="Bootstrap" width="31px" height="31px"></a>
+<a href="https://mui.com/" title="Material UI"><img src="https://github.com/get-icon/geticon/raw/master/icons/material-ui.svg" alt="Material UI" width="31px" height="31px"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="Javascript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="Javascript" width="31px" height="31px"></a>
+<a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="" width="31px" height="31px"></a>
+<a href="https://nodejs.org/en/" title="Node JS"><img src="https://github.com/get-icon/geticon/blob/master/icons/nodejs-icon.svg" alt="Node JS" width="31px" height="31px"></a>
+
 
 ## 📷Snapshots
 
 ### Home Page
-![Home Page](https://doc-0k-34-docs.googleusercontent.com/docs/securesc/ua8kq3mqrmo97aq0a5kaelk30irkpteh/s2s4f2adjg2c9rsilqeg7ufk0mth59bp/1639560000000/16251497574335492721/16251497574335492721/1_Wkk7JYOGV3NbuHCYCe0y_KSWTBFn3rr?e=view&authuser=1)
+  ![Home Page](https://drive.google.com/uc?id=1_Wkk7JYOGV3NbuHCYCe0y_KSWTBFn3rr)
 
-<img src = "https://drive.google.com/uc?export=view&id=1_Wkk7JYOGV3NbuHCYCe0y_KSWTBFn3rr" />
+  ### Search
+  ![Home Page](https://drive.google.com/uc?id=1n38nDo66D_J5kFWV0d3i3Qz-nCv_IGEr)
 
-### Search
-![Search](https://doc-0o-34-docs.googleusercontent.com/docs/securesc/ua8kq3mqrmo97aq0a5kaelk30irkpteh/1k1q9mq0mf2tgpb6tgfl1ugk8o8ll63l/1639560000000/16251497574335492721/16251497574335492721/1n38nDo66D_J5kFWV0d3i3Qz-nCv_IGEr?e=view&authuser=1)
+  ### Trending
+  ![Home Page](https://drive.google.com/uc?id=1oEeqQUi7CAb2EU_242yEpCdsd2x3J6oS)
 
-### Trending
-![Trending](https://doc-0o-34-docs.googleusercontent.com/docs/securesc/ua8kq3mqrmo97aq0a5kaelk30irkpteh/gv46miai6v464to4c9s921admi0nigjl/1639560000000/16251497574335492721/16251497574335492721/1oEeqQUi7CAb2EU_242yEpCdsd2x3J6oS?e=view&authuser=1)
+  ### About Movie
+  ![Home Page](https://drive.google.com/uc?id=10pWK_dRrsQ-j-OnRflYFh4cntHw6lZNp)
 
-### About Movie
- ![Movie Info](https://doc-10-34-docs.googleusercontent.com/docs/securesc/ua8kq3mqrmo97aq0a5kaelk30irkpteh/iabdgl2dtsed6krg862ilgcecoeosugv/1639559925000/16251497574335492721/16251497574335492721/10pWK_dRrsQ-j-OnRflYFh4cntHw6lZNp?e=view&authuser=1&nonce=b94tl6t07pkq8&user=16251497574335492721&hash=aqi31ins46k0v53e92oirii1vta4mkfd)
- 
 
 ## Team Bug Busters
 
