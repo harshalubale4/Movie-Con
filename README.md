@@ -44,16 +44,16 @@ It is a Website that helps a user to Review Movies of different Genres across th
 ## 📷Snapshots
 
 ### Home Page
-  ![Home Page]("/public/Images/Snapshots/Home.png")
+<img src="/public/Images/Snapshots/Home.png" />
 
-  ### Search
-  ![Search Page]("/public/Images/Snapshots/Search.png")
+### Search
+<img src="/public/Images/Snapshots/Search.png" />
 
-  ### Trending
-  ![Trending Page]("/public/Images/Snapshots/Trending.png")
+### Trending
+<img src="/public/Images/Snapshots/Trending.png" />
 
-  ### About Movie
-  ![Movie Info]("/public/Images/Snapshots/MovieINfo.png")
+### About Movie
+<img src="/public/Images/Snapshots/MovieINfo.png" />
 
 
 ## Team Bug Busters
