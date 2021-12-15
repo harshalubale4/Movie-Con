@@ -42,16 +42,16 @@ It is a Website that helps a user to Review Movies of different Genres across th
 ## 📷Snapshots
 
 ### Home Page
-![Home Page](https://drive.google.com/uc?export=view&id=1_Wkk7JYOGV3NbuHCYCe0y_KSWTBFn3rr)
+![Home Page](https://doc-0k-34-docs.googleusercontent.com/docs/securesc/ua8kq3mqrmo97aq0a5kaelk30irkpteh/s2s4f2adjg2c9rsilqeg7ufk0mth59bp/1639560000000/16251497574335492721/16251497574335492721/1_Wkk7JYOGV3NbuHCYCe0y_KSWTBFn3rr?e=view&authuser=1)
 
 ### Search
-![Search](https://drive.google.com/uc?export=view&id=1n38nDo66D_J5kFWV0d3i3Qz-nCv_IGEr)
+![Search](https://doc-0o-34-docs.googleusercontent.com/docs/securesc/ua8kq3mqrmo97aq0a5kaelk30irkpteh/1k1q9mq0mf2tgpb6tgfl1ugk8o8ll63l/1639560000000/16251497574335492721/16251497574335492721/1n38nDo66D_J5kFWV0d3i3Qz-nCv_IGEr?e=view&authuser=1)
 
 ### Trending
-![Trending](https://drive.google.com/uc?export=view&id=1oEeqQUi7CAb2EU_242yEpCdsd2x3J6oS)
+![Trending](https://doc-0o-34-docs.googleusercontent.com/docs/securesc/ua8kq3mqrmo97aq0a5kaelk30irkpteh/gv46miai6v464to4c9s921admi0nigjl/1639560000000/16251497574335492721/16251497574335492721/1oEeqQUi7CAb2EU_242yEpCdsd2x3J6oS?e=view&authuser=1)
 
 ### About Movie
- ![Movie Info](https://drive.google.com/uc?export=view&id=10pWK_dRrsQ-j-OnRflYFh4cntHw6lZNp)
+ ![Movie Info](https://doc-10-34-docs.googleusercontent.com/docs/securesc/ua8kq3mqrmo97aq0a5kaelk30irkpteh/iabdgl2dtsed6krg862ilgcecoeosugv/1639559925000/16251497574335492721/16251497574335492721/10pWK_dRrsQ-j-OnRflYFh4cntHw6lZNp?e=view&authuser=1&nonce=b94tl6t07pkq8&user=16251497574335492721&hash=aqi31ins46k0v53e92oirii1vta4mkfd)
  
 
 ## Team Bug Busters
