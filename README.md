@@ -44,6 +44,8 @@ It is a Website that helps a user to Review Movies of different Genres across th
 ### Home Page
 ![Home Page](https://doc-0k-34-docs.googleusercontent.com/docs/securesc/ua8kq3mqrmo97aq0a5kaelk30irkpteh/s2s4f2adjg2c9rsilqeg7ufk0mth59bp/1639560000000/16251497574335492721/16251497574335492721/1_Wkk7JYOGV3NbuHCYCe0y_KSWTBFn3rr?e=view&authuser=1)
 
+<img src = "https://drive.google.com/uc?export=view&id=1_Wkk7JYOGV3NbuHCYCe0y_KSWTBFn3rr" />
+
 ### Search
 ![Search](https://doc-0o-34-docs.googleusercontent.com/docs/securesc/ua8kq3mqrmo97aq0a5kaelk30irkpteh/1k1q9mq0mf2tgpb6tgfl1ugk8o8ll63l/1639560000000/16251497574335492721/16251497574335492721/1n38nDo66D_J5kFWV0d3i3Qz-nCv_IGEr?e=view&authuser=1)
 
