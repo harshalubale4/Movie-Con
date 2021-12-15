@@ -1,7 +1,8 @@
 
 
 .cardContainer{
-    height: 73vh;
+    height: fit-content;
+    min-height: 73vh;
     width: 40vh;
     padding: 10px;
     color: white;
@@ -10,10 +11,11 @@
     border: 5px solid white;
     box-sizing: border-box;
     margin: 10px;
+    object-fit: contain;
     transition: 0.5s;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .cardContainer:hover{
@@ -26,6 +28,7 @@
 }
 
 .textContainer{
+    font-size: 1em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,7 +38,7 @@
 }
 
 .movieHeader{
-    font-size: 1.3rem;
+    font-size: 1.2em;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     font-weight: bolder;
