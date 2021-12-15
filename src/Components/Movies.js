@@ -66,7 +66,7 @@ const Movies = () => {
                 }
                 {
                     numberOfPages > 1 && (
-                        <CustomPagination setPage={setPage} numberOfPages={numberOfPages} />)
+                        <CustomPagination setPage={setPage} numberOfPages={500} />)
                 }
             </div>
             <Modal />
