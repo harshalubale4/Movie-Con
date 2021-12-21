@@ -13,11 +13,12 @@
     display: flex;
     opacity: 0.2;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     object-fit: contain;
     align-items: center;
     /* /* padding: 2em; */
     padding-bottom: 0.4em;
+    flex-wrap:wrap;
 }
 
 .borderContainer:hover{
