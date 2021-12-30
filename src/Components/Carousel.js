@@ -12,7 +12,7 @@ const Carousel = () => {
                     <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div className="carousel-inner w-100">
                             <div className="carousel-item active movieContainer">
-                                <img src="Images/tenet.jpg" className="d-block bgImage w-100" alt="..." />
+                                <img src="Images/tenet.jpg" className="d-block bgImage w-100 myImage" alt="..." />
                                 <div className="carousel-caption d-none d-md-block mb-5 captionContainer">
                                     <h5 className="captionHeading">TENET</h5>
                                     <p className="caption">One Man's Probability Of Death...Is Another Man's Possibility For A Life</p>
