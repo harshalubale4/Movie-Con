@@ -19,6 +19,8 @@
 .imagePortrait{
   display: none;
   object-fit: contain;
+  object-position: center;
+  height: 100%;
   border-radius:20px;
 }
 
@@ -79,6 +81,7 @@
   .imagePortrait {
     display: flex;
     width: 38%;
+    height: 100%;
   }
   .content {
     flex-direction: row;
