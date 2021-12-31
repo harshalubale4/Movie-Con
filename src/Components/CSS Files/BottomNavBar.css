@@ -13,12 +13,11 @@
     display: flex;
     opacity: 0.2;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     object-fit: contain;
     align-items: center;
-    /* /* padding: 2em; */
     padding-bottom: 0.4em;
-    flex-wrap:wrap;
+    flex-wrap:wrap;  
 }
 
 .borderContainer:hover{
@@ -44,4 +43,13 @@
     transform: translateY(-10px);
     box-sizing: border-box;
     cursor: pointer;
+}
+
+
+@media (max-width: 560px){
+    .myButton{
+        padding: 0.8em 0.3em;
+        margin-bottom: 0.25rem;
+        border: 0.25em solid #000000;
+    }
 }

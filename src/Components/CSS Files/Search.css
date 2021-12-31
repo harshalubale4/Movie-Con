@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 2.5em;
 }
 .inputField{
     width: 45%;
@@ -29,4 +30,15 @@
     border: 3px solid white;
     font-weight: bolder;
     border-radius: 0.6rem;
+}
+
+@media(max-width:500px){
+    .inputField{
+        width: 90%;
+        margin-bottom: 0.5em;
+    }
+    #searchButton{
+        padding: 0.25em;
+        font-size: 0.9em;
+    }
 }
