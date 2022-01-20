@@ -51,5 +51,12 @@
         padding: 0.8em 0.3em;
         margin-bottom: 0.25rem;
         border: 0.25em solid #000000;
+        opacity: 1;
+    }
+    .myButton:hover{
+        transform: none;
+    }
+    .borderContainer{
+        opacity: 1;
     }
 }

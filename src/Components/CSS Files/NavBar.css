@@ -37,3 +37,9 @@
 body{
     text-decoration: none;
 }
+
+@media (max-width: 560px){
+   .navBar{
+       opacity: 1;
+   }
+}
