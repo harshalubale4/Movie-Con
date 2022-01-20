@@ -9,23 +9,23 @@ import ListIcon from '@mui/icons-material/List';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 const NavBar = () => {
-    const [value, setValue] = useState(0);
+    // const [value, setValue] = useState(0);
     const navigate = useNavigate()
-    useEffect(() => {
-        if (value === 1) {
-            navigate("/")
-        } else if (value === 2) {
-            navigate("/bugbusters")
-        } else if (value === 3) {
-            navigate("/mentors");
-        }
+    // useEffect(() => {
+    //     if (value === 1) {
+    //         navigate("/")
+    //     } else if (value === 2) {
+    //         navigate("/bugbusters")
+    //     } else if (value === 3) {
+    //         navigate("/mentors");
+    //     }
 
-    }, [value])
+    // }, [value])
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light fixed-top navBar">
                 <div className="container">
-                    <span className="navbar-brand" id="navBarBrand" onClick={() => { setValue(1) }}> <MovieCreationIcon fontSize="large" /> Movie Con</span>
+                    <a href="https://movieconvjti.netlify.app/" className="navbar-brand" id="navBarBrand" > <MovieCreationIcon fontSize="large" /> Movie Con</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                         aria-label="Toggle navigation">
